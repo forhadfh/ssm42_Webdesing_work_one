@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+
+*{
+	box-sizing: border-box;
+}
+body{
+	margin: 0;
+	font-family: 'Lato', sans-serif;
+}
+.container{
+
+width: 1200px;
+
+margin: 50px auto;
+
+/* background: cyan; */
+
+display: flex;
+
+flex-wrap: wrap;
+}
+.col{
+	padding: 15px;
+}*{
+	box-sizing: border-box;
+}
+body{
+	margin: 0;
+}
+.container{
+
+width: 1200px;
+
+margin: 50px auto;
+
+/* background: cyan; */
+
+display: flex;
+
+flex-wrap: wrap;
+}
+.col{
+	padding: 15px;
+}
+h1{
+    font-size: 30px;
+    font-weight: 900;
+}
+p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #4e4e4e;
+}
+
+.col-2-3{
+	width: 66.66%;
+}
+.col-1-3{
+	width: 33.33%;	
+}
+.box{
+	padding:50px 20px;
+	text-align: center;
+	border-radius: 10px;
+
+}
+
+.color1{
+	background: #0cf9a8;
+	box-shadow: 10px 20px 20px #0cf9a86b;
+}
+
+.color2{
+	background: #bd66dd;
+	box-shadow: 10px 20px 20px #bd66dd6b;
+}
+
+.color3{
+	background: #83b7ff;
+	box-shadow: 10px 20px 20px #83b7ff6b;
+}
+ 
+ a{
+ 	color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px 40px;
+    display: inline-block;
+    border-radius: 30px;
+ }
+ .color1 a {
+    background: #41b78f;
+    box-shadow: 10px 20px 20px #41b78f;
+
+}
+ .color2 a {
+    background: #a442c9;
+    box-shadow: 10px 20px 20px #a442c9;
+    
+}
+ .color3 a {
+    background: #367ee1;
+    box-shadow: 10px 20px 20px #367ee1;
+    
+}
+img{
+	max-width: 30%;
+}
